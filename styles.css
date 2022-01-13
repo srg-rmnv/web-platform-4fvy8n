@@ -1,0 +1,37 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  min-width: 1280px;
+  min-height: 100vh;
+}
+main {
+  background: rgb(202, 194, 250);
+  order: 2;
+  flex: 3;
+}
+.left-sidebar {
+  background: rgb(187, 219, 250);
+  order: 1;
+  flex: 1;
+}
+.right-sidebar {
+  background: rgb(189, 249, 189);
+  order: 3;
+  flex: 1;
+}
+h1,
+h3,
+p {
+  padding: 10px;
+  margin-top: 10px;
+}
